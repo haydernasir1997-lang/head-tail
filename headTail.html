@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haed tail</title>
+</head>
+
+<body>
+    <button onclick="
+        heads()
+        ">head</button>  
+
+    <button onclick="
+    tail()
+    " class="js-tail">tail</button>
+
+    <p class="js-pass"></p>
+
+   <script>
+    function heads() {
+        document.querySelector('.js-pass').textContent = 'you chose head';
+    }
+
+    function tail() {
+        document.querySelector('.js-pass').textContent = 'you chose tail';
+    }
+    
+   </script>
+
+</body>
+</html>
